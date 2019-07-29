@@ -50,13 +50,14 @@ Sample code to get you started:
 ```markdown
 def  leapYear (year):
     #determine if this is a leap year
-    #if is leap year, print "The year".year."is a leap year."
-    #otherwise, print "The year".year."is not a leap year."
+    #if is leap year, print ("The year",year,"is a leap year.")
+    #otherwise, print ("The year",year,"is not a leap year.")
     if year % 4 == 0 and year % 100 != 0:
         ...
 
-leapYear(1996)
-leapYear(2000)
-leapYear(2002)
+leapYear(1996) #true
+leapYear(2000) #true
+leapYear(2002) #false
+leapYear(1600) #true
 ```
 
