@@ -28,7 +28,10 @@ Sample code to get you started:
 ```markdown
 score = input(“What is your exam score? ")
 score = float(score)
-if (score >=90) :
+if (score >= 90) :
+    print("A")
+elif (score >= 80 and score < 90):
+    print("B") 
 	…
 ```
 ## Assignment 3
