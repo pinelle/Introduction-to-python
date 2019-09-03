@@ -26,7 +26,7 @@ Use a print() statement to output the letter grade.
 Sample code to get you started:
 
 ```markdown
-score = input(“What is your exam score? ")
+score = input("What is your exam score? ")
 score = float(score)
 if (score >= 90) :
     print("A")
