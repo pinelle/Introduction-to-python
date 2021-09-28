@@ -61,3 +61,4 @@ leapYear(2002) #false
 leapYear(1600) #true
 ```
 
+Click here to go to [Applied Maching Learning 1](https://github.com/pinelle/applied-machine-learning-1/blob/master/assignments.md).
